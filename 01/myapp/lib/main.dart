@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/main_page.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(StatelessApp());
 
-class MyApp extends StatelessWidget {
+class StatelessApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Main Page',
+      title: 'Yapp',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.pink,
+        accentColor: Colors.blueGrey,
       ),
-      home: MainPage(),
+      home: StatelessPage(),
     );
   }
 }

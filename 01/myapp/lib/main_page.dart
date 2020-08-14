@@ -1,11 +1,15 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
 
-class MainPage extends StatelessWidget {
+class StatelessPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Movie')),
-      body: Center(child: Text('Hello Flutter')),
+      appBar: AppBar(title: Text('Y-App')),
+      body: Center(child: Text('Hello Flutter!')),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
+        onPressed: () {},
+      ),
     );
   }
 }
