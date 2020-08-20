@@ -6,7 +6,9 @@ Flutter Study !
 #### Flutter 공식 문서 관련 사이트 : https://flutter-ko.dev/docs
 #
 ### Task
-- [ ] 2020.08.14 : CHAPTER 05 Let's Toy Project - Part1 준비
+- [x] 2020.08.14 : CHAPTER 05 Let's Toy Project - Part1 준비
+- [ ] 2020.08.22 : CHAPTER 05-4 실습
 #
 ### History
 - 2020.08.13 : create flutter repository
+- 2020.08.14 : chapter 05-3까지 정리
