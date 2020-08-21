@@ -4,8 +4,15 @@ class StatelessPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Movie'),
-          // leading: Icon(Icons.menu), // 1-1. 상단화면 (좌측 버튼 추가)
+      appBar: AppBar(
+        title: Text('Taste'),
+        leading: Icon(Icons.favorite, color: Colors.red),
+      ),
+    );
+  }
+}
+
+/*
           actions: <Widget>[
             PopupMenuButton<int>(
               icon: Icon(Icons.sort),
@@ -26,7 +33,5 @@ class StatelessPage extends StatelessWidget {
               },
             )
           ]),
-      body: Center(child: Text('Hello Flutter!')),
-    );
-  }
-}
+      body: Center(child: Text('Hello Flutter!')
+      */

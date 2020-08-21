@@ -9,7 +9,7 @@ class StatelessApp extends StatelessWidget {
     return MaterialApp(
       title: 'Main Page',
       theme: ThemeData(
-        primaryColor: Colors.blue,
+        primaryColor: Colors.yellow,
       ),
       home: StatelessPage(),
     );
