@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'grid_page.dart';
+import 'list_page.dart';
 
 // ignore: must_be_immutable
 class MainPage extends StatefulWidget {
@@ -18,7 +20,6 @@ class _MainPageState extends State<MainPage> {
       appBar: AppBar(
           title: Text('Taste'),
           leading: Icon(Icons.favorite, color: Colors.red),
-
           // 우측 팝업 버튼
           actions: <Widget>[
             PopupMenuButton<String>(
@@ -61,8 +62,17 @@ class _MainPageState extends State<MainPage> {
           });
         },
       ),
+      body: _buildPage(_selectedTabIndex),
     );
   }
+}
+
+// 탭 화면
+Widget _buildPage(index) {
+  if (index == 0)
+    return ListPage();
+  else
+    return GridPage();
 }
 
 /*
