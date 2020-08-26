@@ -1,6 +1,17 @@
 import 'package:flutter/material.dart';
 
-class StatelessPage extends StatelessWidget {
+// ignore: must_be_immutable
+class MainPage extends StatefulWidget {
+  @override
+  State createState() {
+    return _MainPageState();
+  }
+}
+
+class _MainPageState extends State<MainPage> {
+  // 탭 인덱스 설정
+  int _selectedTabIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,6 +42,25 @@ class StatelessPage extends StatelessWidget {
               },
             )
           ]),
+      bottomNavigationBar: BottomNavigationBar(
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.view_list),
+            title: Text('List'),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.grid_on),
+            title: Text('Grid'),
+          ),
+        ],
+        currentIndex: _selectedTabIndex,
+        onTap: (index) {
+          setState(() {
+            _selectedTabIndex = index;
+            print("$_selectedTabIndex Tab Clicked");
+          });
+        },
+      ),
     );
   }
 }
