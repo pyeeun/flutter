@@ -7,7 +7,10 @@ Flutter Study !
 #
 ### Task
 - [x] 2020.08.14 : CHAPTER 05 Let's Toy Project - Part1 준비
-- [ ] 2020.08.22 : CHAPTER 05-4 실습
+- [x] 2020.08.22 : CHAPTER 05-4 실습
+- [x] 2020.08.25 : CHAPTER 05-5 실습
+- [x] 2020.08.26 : CHAPTER 05-6 실습
+
 #
 ### History
 - 2020.08.13 : create flutter repository
