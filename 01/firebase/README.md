@@ -1,16 +1,11 @@
-# firebase
+## firebase를 사용한 flutter 앱 만들기
 
-A new Flutter project.
+### 1. firebase flutter 연동하기 
+- 아래 블로그를 참고하여 firebase와 flutter 연동을 해보자  
+- 참고 : https://firebase.flutter.dev/docs/overview
 
-## Getting Started
+### 2. firebase에 데이터베이스 구성하기
+- users라는 사용자 테이블을 만든 후, 데이터를 넣어보았다.
+- 참고 : https://firebase.google.com/docs/database/android/structure-data
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3. 데이터 출력해보기
